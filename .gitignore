@@ -1,0 +1,26 @@
+# Node
+node_modules/
+pnpm-lock.yaml
+
+# Cloudflare local data
+.wrangler/
+.cache/
+
+# Build artifacts (optional, if you ever emit)
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE/editor configs
+*.log
+.vscode/
+.idea/
+.DS_Store
+
+# TypeScript
+*.tsbuildinfo
+
